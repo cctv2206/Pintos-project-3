@@ -12,9 +12,10 @@
 #include "vm/swap.h"
 
 
-// only init once
+// frame table initialization
 void frame_table_init (void)
 {
+	// only init once
 	if (frame_initialization == true)
 	{
 		return;
